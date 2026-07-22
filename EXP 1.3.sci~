@@ -1,0 +1,12 @@
+clc;
+
+r=input('Enter the value of r=');
+theta=input('Enter the value of theta=');
+phi=input('Enter the value of phi=');
+
+x=r*sind(theta)*cosd(phi);
+y=r*sind(theta)*sind(phi);
+z=r*cosd(theta);
+
+disp('Cartesian Coordinates [x y z] = ');
+disp([x y z]);
